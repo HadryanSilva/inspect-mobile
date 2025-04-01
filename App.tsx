@@ -6,17 +6,10 @@
  */
 
 import React from 'react';
-import {
-  Text,
-  View,
-} from 'react-native';
+import {Routes} from './src/routes';
 
 function App(): React.JSX.Element {
-  return (
-    <View>
-      <Text>Teste</Text>
-    </View>
-  );
+  return <Routes />;
 }
 
 export default App;
